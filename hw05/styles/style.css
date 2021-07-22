@@ -1,15 +1,14 @@
 html {
-    background: #cfcfcf;
+    background: green;
 }
 
 table {
     border-collapse: collapse;
-    background: rgb(131, 205, 240);
-}
+   }
 
 td {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border: 2px solid black;
 }
 
@@ -19,4 +18,4 @@ td {
 
 .white {
     background: white;
-}
+} 
