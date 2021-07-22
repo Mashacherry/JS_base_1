@@ -5,8 +5,7 @@ let renderer = {
     },
     generateBoard() {
         let flagx = true;
-       
-        let board = '';
+          let board = '';
         for (let y = 0; y < config.rowsCount; y++) {
             board += '<tr>';
             for (let x = 0; x < config.colsCount; x++) {
@@ -15,9 +14,7 @@ let renderer = {
                 } else  {
                     board += `<td class ="white" data-x="${x}" data-y="${y}"</td>`
                 }
-
                 flagx = !flagx;
-
             }
             board += '</tr>';
             flagx = !flagx;
