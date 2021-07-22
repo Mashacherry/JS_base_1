@@ -5,12 +5,12 @@ let renderer = {
     },
     generateBoard() {
         let flagx = true;
-        let flagy=true;
+       
         let board = '';
         for (let y = 0; y < config.rowsCount; y++) {
             board += '<tr>';
             for (let x = 0; x < config.colsCount; x++) {
-                if (flagx&&flagy) {
+                if (flagx) {
                     board += `<td class="black" data-x="${x}" data-y="${y}"</td>`
                 } else  {
                     board += `<td class ="white" data-x="${x}" data-y="${y}"</td>`
@@ -20,7 +20,7 @@ let renderer = {
 
             }
             board += '</tr>';
-            flagy=!flagy;
+            flagx = !flagx;
         }
         return `<table><tbody>${board}</tbody></table>`;
     }
