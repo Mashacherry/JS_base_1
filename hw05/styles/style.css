@@ -4,18 +4,20 @@ html {
 
 table {
     border-collapse: collapse;
-   }
+}
 
 td {
     width: 60px;
     height: 60px;
     border: 2px solid black;
+    text-align: center;
+    font-weight: 600;
 }
 
 .black {
-    background: black;
+    background: rgb(102, 67, 15);
 }
 
 .white {
-    background: white;
-} 
+    background: bisque;
+}
