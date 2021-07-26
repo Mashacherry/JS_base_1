@@ -1,0 +1,21 @@
+html {
+    background: green;
+}
+
+table {
+    border-collapse: collapse;
+   }
+
+td {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
+} 
